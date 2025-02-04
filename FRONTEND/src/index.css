@@ -8,7 +8,7 @@
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(5px);
      /* Adjust the blur amount as needed */
   }
   
