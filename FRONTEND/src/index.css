@@ -3,3 +3,13 @@
 /* this is the bootstarp using command */
 
 @import "tailwindcss";
+
+.text-background-clip {
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    backdrop-filter: blur(3px);
+     /* Adjust the blur amount as needed */
+  }
+  
+
