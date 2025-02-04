@@ -1,16 +1,18 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import 'bootstrap/dist/css/bootstrap.min.css';
-// bootstrap 
-
-function App() {
-  
-
+import {BrowserRouter,Routes,Route} from "react-router-dom"
+import Home from "./pages.jsx/Home";
+import Login from "./pages.jsx/login";
+import Navbar from "./pages.jsx/Navbar";
+function app() {
   return (
-   <div></div> 
-  )
+     <BrowserRouter>
+        <Navbar/>
+       <Routes>
+            <Route  path="/"  element={<Home/>}/>
+            <Route path="/login" element={<Login/>}/>
+
+       </Routes>
+     </BrowserRouter>
+  );
 }
 
-export default App
+export default app;
