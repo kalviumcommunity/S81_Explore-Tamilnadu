@@ -3,12 +3,12 @@ require("dotenv").config()
 const port= process.env.PORT
 const connection=require("./db/connection")
 
-app.get("/testing",async(req,res)=>{
+app.get("/",async(req,res)=>{
      
     res.send("hello.....")
 })
 
-app.listen(port,async ()=>{
+app.listen(port,async()=>{
 
     try {
         await connection;
