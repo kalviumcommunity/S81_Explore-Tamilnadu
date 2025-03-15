@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { IoHome } from "react-icons/io5";
 import { TbLogin2 } from "react-icons/tb";
+import { MdOutlineAddBox } from "react-icons/md";
 
 function Navbar() {
   return (
@@ -14,6 +15,7 @@ function Navbar() {
           Home
         </Link>
       </li>
+      
       <li className="inline-block">
         <Link
           to="/login"

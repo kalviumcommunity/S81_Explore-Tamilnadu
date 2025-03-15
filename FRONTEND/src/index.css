@@ -1,15 +1,1 @@
-/* import 'bootstrap/dist/css/bootstrap.min.css'; */
-
-/* this is the bootstarp using command */
-
 @import "tailwindcss";
-
-.text-background-clip {
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    backdrop-filter: blur(5px);
-     /* Adjust the blur amount as needed */
-  }
-  
-
