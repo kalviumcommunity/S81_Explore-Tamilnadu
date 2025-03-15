@@ -1,20 +1,15 @@
-const {app}=require("./app")
-require("dotenv").config()
-const port= process.env.PORT
-const connection=require("./db/connection")
+const express = require("express");
+require("dotenv").config();
+const connectDB = require("./db/connection"); // Import DB connection
+const app = require("./app"); // ✅ Import app from app.js
 
-app.get("/",async(req,res)=>{
-     
-    res.send("hello.....")
-})
+const port = process.env.PORT || 8000;
 
-app.listen(port,async()=>{
-
-    try {
-        await connection;
-        console.log(`app is running on http://localhost:${port}`)
-    } catch (error) {
-        console.log(error)
-    }
-   
-})
+// ✅ Connect to Database and Start Server
+connectDB().then(() => {
+    app.listen(port, () => {
+        console.log(`🚀 Server is running on http://localhost:${port}`);
+    });
+}).catch((error) => {
+    console.error("❌ MongoDB Connection Failed:", error);
+});
