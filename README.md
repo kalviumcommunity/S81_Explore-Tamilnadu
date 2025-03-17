@@ -1,58 +1,83 @@
-# Explore Tamil Nadu
+# E-commerce   
+## Milestone 1   
+got overview of the e-commerce project Tech Stack   
+MongoDb, nodeJS, express, react   
+## Milestone 2   
+knew how to use tailwind css and created user login page Tech Stack   
+React , Tailwind css,nodeJs , express   
+## Milestone 3   
+created an server   
+linked mongo DB with the backend,error handling Tech Stack   
+Mongo DB, Express JS, Nodemon   
+## Milestone 4   
+created an file inside model folder   
+Used mongoose , bcrypt , jsonwebtoken and multer   
 
-## Project Overview
-Explore Tamil Nadu is a web application designed to guide visitors to the best travel destinations in Tamil Nadu, India. Our site enriches the travel experience by providing current weather updates, detailed descriptions of popular tourist spots, and personalized recommendations based on user preferences. The main objective is to attract tourists to Tamil Nadu by offering a clear guideline for travel planning.
+## Milestone 5
+- Created a signup page
+- Added form validation to ensure users input valid data.
 
-## Key Features
-- **Location Details**: Information about breath-taking locations such as Kodaikanal, Ooty, and more.
-- **Weather Updates**: Live weather information for specific locations of interest.
-- **User Reviews and Ratings**: A platform for users to post comments and rate various aspects of their visits.
-- **Local Events and Festivals**: Information on local events and festivals, including timings and details.
+## Milestone 6  
+- Use bcrypt to hash the user's password during signup. 
+- Save the hashed password in the database instead of plain text.
+- Saved all the user's data in the database while ensuring that the password remains encrypted.
 
-## Tech Stack
-- **Frontend**: React.js, HTML, CSS, Bootstrap
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB
-- **API Integration**: OpenWeatherMap API for weather updates
+## Milestone 7 
+- Accept user credentials (email/username and password).  
+- Retrieve the corresponding user from the database.
 
-## Why This Project
-I chose this project because it combines my passion for travel and technology. By working on this project, I aim to create a platform that helps travelers from long distances who may not know the local language or how to navigate the area.
+## validate Password 
+- Use bcrypt to hash the entered password.
+- Compare it with the stored hashed password for authentication.
+
+## Milestone 8 
+- Designed a reusable card component with props for product details (e.g., name, image, price).
+- Set up a grid layout or flexbox for displaying multiple cards neatly.
+
+## Milestone 9 
+- Created the form for products
+- This form will take multiple product images images as input
+
+## Milestone 10
+- Defined the structure of product data (e.g., name, description, price, image URL) using Mongoose. -Ensure each field has proper validation (e.g., required fields, correct data types).
+- Built a POST endpoint to receive product data.
+- Validate and save the product details to MongoDB.
+
+## validate password 
+- Ensures that only valid data is saved in the database, maintaining data integrity and preventing errors.
+
+## Milestone 11   
+- Created an endpoint to fetch all products from MongoDB.  
+- Implemented a frontend function to retrieve and display product data.  
+- Dynamically rendered products using the existing Product Card component.  
 
 
-## Frontend:
+## Milestone 12  
+- Implemented an endpoint to fetch products based on user email from MongoDB.  
+- Created a function in the frontend to retrieve and display filtered product data.  
+- Dynamically rendered products using the existing Product Card component.
 
-+ Created a pages folder in the src directory.
+## Milestone 13
+- Created put endpoint
 
-+ Inside the pages folder, created several files: Home.jsx, Login.jsx, and Navbar.jsx.
+## Milestone 14
+- Created delete endpoint   
 
-+ Developed a login page as part of the assignment using Tailwind CSS.
+## Milestone 15 
+- Created an new Nav component with links to all pages
+- Created a Navbar and made it responsive to all screen  
 
-+ Downloaded Tailwind CSS using The Tailwind npm. 
+## Milestone 15 
+- Created a new page that displays all product data
 
-# npm install tailwindcss @tailwindcss/vite
+## Milestone 16
+- Created a new page that store all product data
 
-+ Added the modules in vite.config.js.
 
-+ Integrated React Router for client-side routing.
+## Milestone 17
+- Wrote the cart schema to store products
+- Wrote an endpoint to store receive and store product details in cart   
 
-+ Used react-icons from the React library for adding icons.
-
-+ Installed React Icons using:
-
-+ Created a Navbar component.
-
-+ Added navigation links to the Home and Login pages.
-
-+ Linked the pages in the Navbar.
-
-# npm install react-icons
-
-+ Iam added icons for the home and the login page.
-
-+ using react Icons.
-
-+ added showpassword Icon from the React Icon library.
-
-# For the Login page:
-
-+ Added a "show password" feature with an eye icon for toggling password visibility.
+## Milestone 18
+- Created an Backend endpoint for cart page
+- Written an endpoint to get products inside cart for user
