@@ -1,127 +1,80 @@
-# E-commerce   
-## Milestone 1   
-got overview of the e-commerce project Tech Stack   
-MongoDb, nodeJS, express, react   
-## Milestone 2   
-knew how to use tailwind css and created user login page Tech Stack   
-React , Tailwind css,nodeJs , express   
-## Milestone 3   
-created an server   
-linked mongo DB with the backend,error handling Tech Stack   
-Mongo DB, Express JS, Nodemon   
-## Milestone 4   
-created an file inside model folder   
-Used mongoose , bcrypt , jsonwebtoken and multer   
+# Explore Tamil Nadu
 
-## Milestone 5
-- Created a signup page
-- Added form validation to ensure users input valid data.
+## Project Overview
+Explore Tamil Nadu is a web application designed to guide visitors to the best travel destinations in Tamil Nadu, India. Our site enriches the travel experience by providing:
+- **Current weather updates**
+- **Detailed descriptions** of popular tourist spots
+- **Personalized recommendations** based on user preferences
 
-## Milestone 6  
-- Use bcrypt to hash the user's password during signup. 
-- Save the hashed password in the database instead of plain text.
-- Saved all the user's data in the database while ensuring that the password remains encrypted.
+### **Objective**
+The main objective of this project is to attract tourists to Tamil Nadu by offering a clear guideline for travel planning.
 
-## Milestone 7 
-- Accept user credentials (email/username and password).  
-- Retrieve the corresponding user from the database.
+## **Key Features**
+- **Location Details**: Information about breathtaking locations such as Kodaikanal, Ooty, and more.
+- **Weather Updates**: Live weather information for specific locations of interest.
+- **User Reviews and Ratings**: A platform for users to post comments and rate various aspects of their visits.
+- **Local Events and Festivals**: Information on local events and festivals, including timings and details.
 
-## validate Password 
-- Use bcrypt to hash the entered password.
-- Compare it with the stored hashed password for authentication.
+## **Tech Stack**
+- **Frontend**: React.js, HTML, CSS, Bootstrap, Tailwind CSS
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB
+- **API Integration**: OpenWeatherMap API for weather updates
 
-## Milestone 8 
-- Designed a reusable card component with props for product details (e.g., name, image, price).
-- Set up a grid layout or flexbox for displaying multiple cards neatly.
+## **Why This Project?**
+I chose this project because it combines my passion for travel and technology. By working on this project, I aim to create a platform that helps travelers from long distances who may not know the local language or how to navigate the area.
 
-## Milestone 9 
-- Created the form for products
-- This form will take multiple product images images as input
+## **Frontend Development**
+### **Project Setup**
+1. Created a `pages` folder in the `src` directory.
+2. Inside the `pages` folder, created several files:
+   - `Home.jsx`
+   - `Login.jsx`
+   - `Navbar.jsx`
 
-## Milestone 10
-- Defined the structure of product data (e.g., name, description, price, image URL) using Mongoose. -Ensure each field has proper validation (e.g., required fields, correct data types).
-- Built a POST endpoint to receive product data.
-- Validate and save the product details to MongoDB.
+### **Login Page Development**
+1. **Installed Tailwind CSS**:
+   ```sh
+   npm install tailwindcss @tailwindcss/vite
+   ```
+2. **Configured Vite**:
+   - Added the required modules in `vite.config.js`.
+3. **Integrated React Router** for client-side routing.
+4. **Installed React Icons**:
+   ```sh
+   npm install react-icons
+   ```
+5. **Created a Navbar Component**:
+   - Added navigation links to the `Home` and `Login` pages.
+   - Linked the pages in the Navbar.
+6. **Implemented Features for the Login Page**:
+   - Added a **"Show Password"** feature.
+   - Used an **eye icon** from `react-icons` to toggle password visibility.
 
-## validate password 
-- Ensures that only valid data is saved in the database, maintaining data integrity and preventing errors.
+## **Deployment**
+- The frontend can be deployed using **Netlify**:
+  - **Build Command**: `npm run build`
+  - **Publish Directory**: `dist`
 
-## Milestone 11   
-- Created an endpoint to fetch all products from MongoDB.  
-- Implemented a frontend function to retrieve and display product data.  
-- Dynamically rendered products using the existing Product Card component.  
+## **Installation & Usage**
+### **Clone the repository**
+```sh
+git clone https://github.com/yourusername/explore-tamil-nadu.git
+cd explore-tamil-nadu
+```
 
+### **Install dependencies**
+```sh
+npm install
+```
 
-## Milestone 12  
-- Implemented an endpoint to fetch products based on user email from MongoDB.  
-- Created a function in the frontend to retrieve and display filtered product data.  
-- Dynamically rendered products using the existing Product Card component.
+### **Run the development server**
+```sh
+npm run dev
+```
 
-### Milestone 13 - Edit Uploaded Products
-Overview
-+Welcome to Milestone 13! In this milestone, we will add functionality to edit uploaded products. We will implement an edit button and create a backend endpoint to update product details inside the MongoDB database.
-Learning Goals
-+Understand how to write an endpoint that updates existing data in MongoDB.
-+Learn how to auto-fill a form with previous product data and provide an option to edit.
-Steps for Milestone 13
-+Backend - Create an Update Endpoint
+### **Build for production**
+```sh
+npm run build
+```
 
-+Write an endpoint that receives updated product data and modifies the existing data inside MongoDB.
-+Frontend - Implement Edit Button & Auto-fill Form
-
-+Add an edit button to the product card.
-+When the edit button is clicked, send the selected product’s data to a form.
-+Auto-fill the form with previous product details.
-+Provide an option to edit and save the changes.
-Testing the Implementation
-+Start your backend server.
-+Start your frontend application.
-+Navigate to a product and click the edit button.
-+Modify the product details and save the changes.
-+Verify that the product data is updated in MongoDB.
-Summary
-+Created an API endpoint to update product details in MongoDB.
-+Added an edit button to the product card.
-
-
-
-### Milestone 14 - Delete Product Functionality
-Overview
-+Welcome to Milestone 14! In this milestone, we will implement the functionality to delete a product. We will add a delete button to the product card and create a backend endpoint to remove a product from MongoDB using its ID.
-Learning Goals 🎯
-+Understand how to write an endpoint that deletes a product by its ID from MongoDB.
-Steps for Milestone 14
-+Backend - Create a Delete Endpoint
-
-+Write an endpoint that receives a product ID and deletes the corresponding product from MongoDB.
-+Frontend - Implement Delete Button
-
-+Add a delete button to the product card.
-+When the delete button is clicked, send the product ID to the backend endpoint.
-Testing the Implementation
-+Start your backend server.
-+Start your frontend application.
-+Click the delete button on a product.
-+Verify that the product is removed from MongoDB.
-Summary
-+Created an API endpoint to delete a product from MongoDB by ID.
-+Added a delete button to the product card.  
-
-## Milestone 15 
-- Created an new Nav component with links to all pages
-- Created a Navbar and made it responsive to all screen  
-
-## Milestone 15 
-- Created a new page that displays all product data
-
-## Milestone 16
-- Created a new page that store all product data
-
-
-## Milestone 17
-- Wrote the cart schema to store products
-- Wrote an endpoint to store receive and store product details in cart   
-
-## Milestone 18
-- Created an Backend endpoint for cart page
-- Written an endpoint to get products inside cart for user
