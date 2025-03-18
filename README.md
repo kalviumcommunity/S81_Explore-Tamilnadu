@@ -21,5 +21,3 @@ The main objective of this project is to attract tourists to Tamil Nadu by offer
 - **Database**: MongoDB
 - **API Integration**: OpenWeatherMap API for weather updates
 
-## **Why This Project?**
-I chose this project because it combines my passion for travel and technology. By working on this project, I aim to create a platform that helps travelers from long distances who may not know the local language or how to navigate the area.
