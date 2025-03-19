@@ -33,3 +33,14 @@ The main objective of this project is to attract tourists to Tamil Nadu by offer
 ## Notes  
 - `.gitignore` ensures `node_modules` and `package-lock.json` are not committed to the repository.  
 - The PR allows for review before merging into the main branch.  
+
+# Project Setup with Express  
+
+### Steps Completed  
+
+1. **Created a Branch Locally**  
+2. **Created a `server.js` file**  
+3. **Added a basic Express app in `server.js`**  
+   - Included a `/ping` route for testing  
+4. **Committed the changes and pushed the branch to GitHub**  
+5. **Created a Pull Request (PR) with the branch**
