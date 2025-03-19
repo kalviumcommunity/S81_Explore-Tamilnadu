@@ -21,3 +21,15 @@ The main objective of this project is to attract tourists to Tamil Nadu by offer
 - **Database**: MongoDB
 - **API Integration**: OpenWeatherMap API for weather updates
 
+# Project Setup & Initial Commit
+
+## Steps Completed  
+1. Created a branch locally.  
+2. Initialized the project using `npm init`.  
+3. Committed the `package.json` file.  
+4. Added `.gitignore` to exclude `node_modules` and `package-lock.json`.  
+5. Created a Pull Request (PR) with the branch.  
+
+## Notes  
+- `.gitignore` ensures `node_modules` and `package-lock.json` are not committed to the repository.  
+- The PR allows for review before merging into the main branch.  
