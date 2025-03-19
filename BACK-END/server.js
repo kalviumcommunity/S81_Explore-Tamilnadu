@@ -13,9 +13,9 @@ app.use("/api", placeRoute);
 connectDB()
     .then(() => {
         app.listen(port, () => {
-            console.log(`🚀 Server running at http://localhost:${port}`);
+            console.log(`Server running at http://localhost:${port}`);
         });
     })
     .catch((error) => {
-        console.error("❌ MongoDB Connection Failed:", error);
+        console.error("MongoDB Connection Failed:", error);
     });
