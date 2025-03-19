@@ -21,3 +21,9 @@ The main objective of this project is to attract tourists to Tamil Nadu by offer
 - **Database**: MongoDB
 - **API Integration**: OpenWeatherMap API for weather updates
 
+# API Testing with bru files
+
++ Created a Branch Locally
+
++ Created a folder called 'docs.bruno'
+
