@@ -21,3 +21,37 @@ The main objective of this project is to attract tourists to Tamil Nadu by offer
 - **Database**: MongoDB
 - **API Integration**: OpenWeatherMap API for weather updates
 
+# 📌 Adding Entities & Data to MongoDB Atlas for ASAP Project  
+
+## ✅ Task Completed  
+
+I have successfully created a **MongoDB Atlas database** for the ASAP project and added multiple entities with relevant data.  
+
+---
+
+## **1️⃣ Database & Collections Setup**  
+
+### **🗂 Database Name:** `asap_project_db`  
+
+### **📌 Created Collections:**  
+- Users  
+- Places  
+- Bookings  
+- Reviews  
+- Hotels  
+- Restaurants  
+- Guides  
+- Events  
+- Transport  
+- Packages  
+
+---
+
+## **2️⃣ Steps Followed**  
+
+1. Created a **MongoDB Atlas** account.  
+2. Set up a **new database** named `asap_project_db`.  
+3. Defined **10+ collections** based on project requirements.  
+4. Inserted sample data for testing.  
+5. Verified the database connection using **MongoDB Compass & Mongoose**.  
+
