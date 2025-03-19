@@ -1,19 +1,16 @@
 import React from "react";
-// import PlaceCard from "./components/PlaceCard";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import PlaceCard from "./componants/PlaceCard";
+import Home from "./componants/Home";
 
 function App() {
-  const place = {
-    name: "Meenakshi Temple",
-    location: "Madurai, Tamil Nadu",
-    description: "One of the most famous temples in India, known for its stunning architecture.",
-    image: "https://www.india.com/wp-content/uploads/2018/08/25india-tourism-meenakshi-temple-madurai.jpg"
-  };
-
   return (
-    <div style={{ display: "flex", justifyContent: "center", marginTop: "50px" }}>
-      <PlaceCard {...place} />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/place" element={<PlaceCard />} />
+      </Routes>
+    </Router>
   );
 }
 
