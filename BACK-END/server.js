@@ -1,14 +1,15 @@
 const express = require("express");
 require("dotenv").config();
+const mongoose = require("mongoose");
 const connectDB = require("./db/connection"); 
-const placeRoute=require("./controllers/placesRoute")
+const placeRoute = require("./controllers/placesRoute");
 
 const app = express();
 const port = process.env.PORT || 8000;
 
 app.use(express.json()); 
 
-app.use("/api", placeRoute); 
+app.use("/api", placeRoute);
 
 connectDB()
     .then(() => {
